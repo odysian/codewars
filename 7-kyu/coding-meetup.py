@@ -17,3 +17,9 @@ def greet_developers(lst):
         )
 
     return lst
+
+
+# CODING MEETUP 3
+def is_ruby_coming(lst):
+
+    return any(dev["language"] == "Ruby" for dev in lst)
