@@ -83,8 +83,6 @@ def is_same_language(lst):
 
 
 # CODING MEETUP 7
-
-
 def find_senior(lst):
     # === KING OF THE HILL ===
     # res = []
@@ -109,3 +107,15 @@ def find_senior(lst):
     max_age = max(dev["age"] for dev in lst)
 
     return [dev for dev in lst if dev["age"] == max_age]
+
+
+# CODING MEETUP 8
+
+
+def all_continents(lst):
+
+    REQUIRED = {"Africa", "Americas", "Asia", "Europe", "Oceania"}
+
+    found = {dev["continent"] for dev in lst}
+
+    return found >= REQUIRED
