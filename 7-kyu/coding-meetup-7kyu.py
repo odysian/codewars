@@ -80,3 +80,9 @@ def is_same_language(lst):
     first_lang = lst[0]["language"]
 
     return all(dev["language"] == first_lang for dev in lst)
+
+
+# CODING MEETUP 11
+def get_average(lst):
+
+    return round(sum(dev["age"] for dev in lst) / len(lst))

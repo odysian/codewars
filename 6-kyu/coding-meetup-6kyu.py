@@ -42,3 +42,24 @@ def is_age_diverse(lst):
     found_decades = {min(dev["age"] // 10, 10) for dev in lst}
 
     return found_decades >= required_decades
+
+
+from datetime import datetime
+
+
+# CODING MEETUP 10
+def add_username(lst):
+
+    current_year = datetime.now().year
+
+    for dev in lst:
+
+        birth_year = current_year - dev["age"]
+
+        p1 = dev["firstName"].lower()
+
+        p2 = dev["lastName"][0].lower()
+
+        dev["username"] = f"{p1}{p2}{birth_year}"
+
+    return lst
