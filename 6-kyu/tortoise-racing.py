@@ -3,8 +3,7 @@ def race(v1, v2, g):
         return None
 
     # ALWAYS CONVERT TO SMALLEST UNIT
-    time_hours = g / (v2 - v1)
-    time_seconds = int(time_hours * 3600)
+    time_seconds = (g * 3600) // (v2 - v1)
 
     hours = time_seconds // 3600
     minutes = (time_seconds % 3600) // 60
