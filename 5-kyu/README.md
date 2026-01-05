@@ -11,3 +11,7 @@
 - Sliding window
 - Scan for peaks, handle plateau edge cases with pointers or alternate approach could store the index of the start of a peak.
 - Fun problem to work through
+
+### [Pagination Helper](https://www.codewars.com/kata/515bb423de843ea99400000a/train/python)
+- OOP
+- Zero indexes made the problem interesting. Good bit of division/modulo that took some thought.
