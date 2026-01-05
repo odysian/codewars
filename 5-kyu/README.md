@@ -19,3 +19,7 @@
 ### [Sum of Pairs](https://www.codewars.com/kata/54d81488b981293527000c8f/train/python)
 - Two sum but return numbers, not indexes
 - Used a set for better perfomance
+
+### [Integers: Recreation One](https://www.codewars.com/kata/55aa075506463dac6600010d/train/python)
+- Square numbers and nested loop
+- Required decent optimization to pass tests. Only looping through until the sqrt of a number cut down runtime.
