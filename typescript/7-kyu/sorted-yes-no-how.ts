@@ -7,11 +7,12 @@ export function isSortedAndHow(array: number[]): string {
   let desc_count: number = 1
 
   for (let i = 0; i < array.length - 1; i++) {
-
-    if (array[i] <= array[i+1]){
+    const current = array[i]!;
+    const next = array[i+1]!;
+    if (current <= next){
       asc_count++
     } 
-    if (array[i] >= array[i+1]) {
+    if (current >= next) {
       desc_count++
     }
   }
@@ -31,11 +32,13 @@ export function isSortedAndHow1(array: number[]): string {
   let descending: boolean = true;
 
   for (let i = 0; i < array.length - 1; i++) {
+    const current = array[i]!;
+    const next = array[i+1]!;
 
-    if (array[i] > array[i+1]){
+    if (current > next){
       ascending = false;
     } 
-    if (array[i] < array[i+1]) {
+    if (current < next) {
       descending = false;
     }
     if (!ascending && !descending) {

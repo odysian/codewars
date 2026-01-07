@@ -6,11 +6,11 @@ export class Kata {
     let topLen: number = 0;
     let num: number = 0;
     
-    for (let i = 0; i < array.length; i++) {
-      let numLength: number = String(array[i]).length;
-      if (numLength > topLen) {
-        topLen = numLength;
-        num = array[i]
+    for (const val of array) {
+      const valLength = String(val).length;
+      if (valLength > topLen) {
+        topLen = valLength;
+        num = val;
       }
     }
     return num;
