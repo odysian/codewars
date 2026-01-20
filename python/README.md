@@ -1,7 +1,5 @@
 # Python CodeWars Solutions
 
-This directory contains Python solutions organized by algorithmic categories to help with targeted practice and learning.
-
 ## Categories
 
 - **arrays/** - Array manipulation, filtering, and pattern-based problems
@@ -15,12 +13,3 @@ This directory contains Python solutions organized by algorithmic categories to 
 - **searching/** - Search algorithms, combinations, and pair finding
 - **sliding-window/** - Sliding window techniques
 - **object-oriented/** - Class-based and object-oriented solutions
-
-## Usage
-
-Navigate to any category to see solutions that use similar algorithmic approaches. This makes it easier to:
-- Study specific patterns and techniques
-- Compare different solutions to similar problems
-- Practice targeted algorithm types
-
-Each solution includes comments explaining the approach and key insights.
